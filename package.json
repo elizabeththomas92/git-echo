@@ -1,16 +1,19 @@
 {
-  "name": "impactflow",
-  "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+  "name": "git-echo",
+  "version": "0.1.5",
+  "description": "A minimal CLI to watch file changes using chokidar",
+  "main": "lib/watcher.js",
+  "bin": {
+    "git-echo": "bin/index.js"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
+  "scripts": {
+    "start": "node bin/index.js"
+  },
+  "author": "Elizabeth Thomas",
+  "license": "MIT",
   "dependencies": {
     "chokidar": "^4.0.3",
     "madge": "^8.0.0"
   }
 }
+
