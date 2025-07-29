@@ -39,3 +39,6 @@ Then run the tool with:
 npm run watch
 ```
 
+<img width="2212" height="451" alt="image" src="https://github.com/user-attachments/assets/9b80d667-93a8-4ba3-b1eb-bea0c391885f" />
+
+
