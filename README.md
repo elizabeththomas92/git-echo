@@ -22,7 +22,20 @@ Install globally (optional):
 ```bash
 npm install -g git-echo
 
-or
+```
 
-npm install --save-dev git-echo
+🎯 Recommended Setup (via package.json)
+Add a custom script to your package.json:
+
+```
+"scripts": {
+  "watch": "git-echo ."
+}
+```
+
+Then run the tool with:
+
+```
+npm run watch
+```
 
