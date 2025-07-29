@@ -1,6 +1,6 @@
 {
   "name": "git-echo",
-  "version": "0.1.8",
+  "version": "0.1.9",
   "description": "A minimal CLI to watch file changes using chokidar",
   "main": "lib/watcher.js",
   "bin": {
